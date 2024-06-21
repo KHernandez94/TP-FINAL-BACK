@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const PORT = 3000;
-const router = require('./routes/appRouters');
+const router = require('./src/routes/appRouters');
 const prefix = "/movies-4";
 
 
